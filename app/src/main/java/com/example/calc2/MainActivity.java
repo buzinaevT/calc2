@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
                 computeCalculation();
                 binding.tvInfo.setText(binding.tvInfo.getText().toString()
                         +decimalFormat.format(valueTwo)+" = "
-                        +decimalFormat.format(valueTwo));
+                        +decimalFormat.format(valueOne));
                 valueOne=Double.NaN;
                 CURRENT_ACTION='0';
             }
